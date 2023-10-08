@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ツイッターカードの設定 -->
+    <meta name="twitter:card" content="summary_large_image" /> <!--Twitterカードの種類-->
+    <meta name="twitter:site" content="@" /> <!--Twitterユーザー名-->
+    <meta property="og:title" content=""><!-- ページのタイトル -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content=""><!-- ページのURL -->
+    <meta property="og:image" content="http://.jpg"><!-- 画像のURL -->
+    <meta property="og:description" content=""> <!--記事の要約（ディスクリプション）-->
+    <!-- cssの読み込み -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
+    <title>サイト名を入れてください</title>
+</head>
+
+<body>
+ <header>
+  <!-- メニューボタン -->
+  <div class="menubtn">
+   <span>
+    MENU
+   </span>
+   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <polygon fill-rule="evenodd" points="19.293 7.293 20.707 8.707 12 17.414 3.293 8.707 4.707 7.293 12 14.586" />
+   </svg>
+  </div><!-- メニューボタン　ここまで -->
+  <!-- メニュー -->
+  <nav class="globalnav">
+   <ul class="none flex">
+    <li><a href="index.html">TOP</a></li>
+    <li><a href="novel.html">NOVEL</a></li>
+    <li><a href="offline.html">OFFLINE</a></li>
+    <li><a href="contact.html">CONTACT</a></li>
+    <li><a href="sample.html">SAMPLE</a></li>
+   </ul>
+  </nav><!-- メニューここまで -->
+ </header>
+
+  <!-- コンテンツ -->
+  <main>
+
+   <h2>SAMPLE &lt;h2&gt;見出し</h2>
+   <h3>&lt;h3&gt;見出し</h3>
+   <h4>&lt;h4&gt;見出し</h4>
+ 
+   <p class="right">class="right"をつけると、文字が右寄せになります</p>
+   <p class="center">class="center"をつけると、文字が中央寄せになります</p>
+ 
+   <div class="box">
+    <p>class="box"をつけると背景色と枠線がつきます。</p>
+   </div>
+ 
+   <p><span class="label">class="label"をつけると、背景色がつきます。</span>左右に余白がつくので注意。</p>
+   
+   <em>emタグはマーカーをひいたような装飾がつきます。</em>
+
+   <p>ulリスト
+    <ul>
+     <li>list1</li>
+     <li>list2</li>
+     <li>list3</li>
+    </ul>
+   </p>
+   
+   <p>olリスト
+    <ol>
+     <li>list1</li>
+     <li>list2</li>
+     <li>list3</li>
+    </ol>
+   </p>
+
+   <p>ulリスト（クラス指定あり）
+    <ul class="class">
+     <li>list1</li>
+     <li>list2</li>
+     <li>list3</li>
+    </ul>
+   </p>
+   
+   <p>olリスト（クラス指定あり）
+    <ol class="class">
+     <li>list1</li>
+     <li>list2</li>
+     <li>list3</li>
+    </ol>
+   </p>
+ 
+   <p>dlリストにclass="grid"をつけた場合</p>
+   <dl class="grid">
+    <dt>項目</dt>
+    <dd>説明文。Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+     dolore magna aliqua.</dd>
+    <dt>項目</dt>
+    <dd>説明文。Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+     dolore magna aliqua.</dd>
+   </dl>
+  </main><!-- コンテンツここまで -->
+
+  <!-- クレジット -->
+  <footer>
+    <small>© 20xx Your site name. Designed by <a href="https://utsusemi.hiroec.com" target="_blank">Utsusemi</a>.</small>
+  </footer> <!-- クレジットここまで -->
+
+
+  <!--jQuery,JavaScrip 読込-->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+  <script src="js/common.js" type="text/javascript"></script>
+</body>
+</html>
